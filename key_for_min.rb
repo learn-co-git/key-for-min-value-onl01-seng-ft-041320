@@ -7,7 +7,7 @@ def key_for_min_value(name_hash)
 end
 holder = new_array[0]
  new_array.each {|ele| holder = ele if ele < holder}
- for(key in name_hash)
+ name_hash.each do |key, value|
  if(name_hash[key] == holder)
    return key 
  end
