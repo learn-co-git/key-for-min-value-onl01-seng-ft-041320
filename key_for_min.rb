@@ -8,4 +8,8 @@ end
 holder = new_array[0]
  new_array.each {|ele| holder = ele if ele < holder}
  return holder
+ for(key in name_hash)
+ if(name_hash[key] == holder)
+   return key 
+ end 
 end
