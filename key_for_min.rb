@@ -10,5 +10,6 @@ holder = new_array[0]
  for(key in name_hash)
  if(name_hash[key] == holder)
    return key 
- end 
+ end
+ end
 end
